@@ -1,0 +1,118 @@
+body {
+    background-color: #E10600;
+    color: black;
+    font-family: 'Corinthia';
+
+}
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: clamp(1.5rem, 4vw, 90px);
+    text-align: center;
+}
+
+h2 {
+    font-size: 45px;
+    margin-top: 0;
+    margin-bottom: 10px;
+
+}
+
+.container {
+    display: flex;
+    align-items: stretch;
+
+}
+
+.esquerda {
+    width: 25%;
+
+}
+
+.direita {
+    width: 50%;
+}
+
+.direita img {
+    width: 100%;
+    height: auto;
+    display: block
+}
+
+li {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 45px;
+}
+
+.title {
+    font-size: 90px;
+}
+
+.marcas {
+    font-size: 45px;
+    text-align: left;
+}
+
+.subtitle {
+    font-size: 45px;
+}
+
+#ideias {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.footer {
+    text-align: center;
+}
+
+#ideias input {
+    width: 600px;
+    height: 50px;
+    font-size: 50px;
+}
+
+#ideias button {
+    height: 50px;
+}
+
+.linha {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+@media (max-width: 768px) {
+
+    .container {
+            display: flex;
+    align-items: flex-start;
+    gap: 30px;
+
+    }
+
+.esquerda {
+    width: 40%;
+}
+
+.direita {
+    width: 120%;
+}
+
+    .direita img {
+        width: 100%;
+    }
+
+    #ideias input {
+        width: 90%;
+        font-size: 30px;
+    }
+
+    #ideias button {
+        width: 150px;
+    }
+}

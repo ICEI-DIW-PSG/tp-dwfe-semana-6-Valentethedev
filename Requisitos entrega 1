@@ -1,0 +1,7 @@
+Uso de TODAS as seguintes tags semânticas: header, footer, main, nav, section, article
+Emprego de atributo class nos principais elementos HTML que definem menu, artigos, cabeçalho, rodapé.
+Inclusão de algum formulário com pelo menos 2 campos e um botão (login, subscribe, pesquisa, etc)
+As seções de imagens devem apresentar imagens reais. Utilize para isso o serviço Lorem PicsumLinks to an external site..
+Ex: https://picsum.photos/id/1/200/300Links to an external site. 
+Aplicação de combinações de seletores em regras que descrevam a hierarquia de elementos de um componente
+Uso de TODAS as seguintes propriedades CSS:  box-model (margin e padding), display, position
