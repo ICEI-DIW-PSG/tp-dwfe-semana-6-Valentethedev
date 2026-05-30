@@ -1,65 +1,146 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="artur" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Site dos Carros</title>
-    <link rel="stylesheet" href="style.css">
+
     <link href="https://fonts.googleapis.com/css2?family=Corinthia&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        body {
+            background-color: #E10600;
+        }
+
+        .title {
+            font-family: 'Corinthia', cursive;
+            font-size: 5rem;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
 </head>
 
 <body>
-    <header>
+
+    <!-- Cabeçalho -->
+    <header class="container py-4 text-center">
         <h1 class="title">Site dos Carros</h1>
     </header>
-    <nav>
-        <h1 class="subtitle">Esse é um projeto desenvolvido por Artur Valente, aluno da faculdade PUC MINAS. O objetivo
-            é mostrar a história e curiosidades de alguns automóveis.</h1>
+
+    <!-- Introdução -->
+    <nav class="container mb-5">
+        <div class="alert alert-light text-center">
+            <h4>
+                Esse é um projeto desenvolvido por Artur Valente, aluno da faculdade PUC Minas.
+                O objetivo é mostrar a história e curiosidades de alguns automóveis.
+            </h4>
+        </div>
     </nav>
-    <section>
-        <div class="container">
-            <div class="esquerda">
-                <h2 class="marcas">Marcas</h2>
-                <ul>
-                    <li>Ford</li>
-                    <li>Marca 2</li>
-                    <li>Marca 3</li>
-                    <li>Marca 4</li>
-                    <li>Marca 5</li>
-                    <li>Marca 6</li>
-                    <li>Marca 1</li>
-                    <li>Marca 2</li>
-                    <li>Marca 3</li>
-                    <li>Marca 4</li>
-                    <li>Marca 5</li>
-                    <li>Marca 6</li>
-                    <li>Marca 1</li>
-                    <li>Marca 2</li>
-                    <li>Marca 3</li>
-                    <li>Marca 4</li>
-                    <li>Marca 5</li>
-                    <li>Marca 6</li>
-                </ul>
-            </div>
-            <div class="direita">         
-                <img src="images/classic-small-car.webp">
-                <img src="images/D_Q_NP_2X_715585-MLB83382394704_042025-E-vw-fusca-1500-1971-placa-preta.webp">
+
+    <!-- Conteúdo Principal -->
+    <main class="container">
+        <div class="row g-4">
+
+            <!-- Coluna Esquerda -->
+            <aside class="col-md-4">
+                <div class="card shadow">
+                    <div class="card-header bg-dark text-white">
+                        <h2 class="h4 mb-0">Marcas</h2>
+                    </div>
+
+                    <div class="card-body">
+                        <ul class="list-group">
+                            <li class="list-group-item">Ford</li>
+                            <li class="list-group-item">Marca 2</li>
+                            <li class="list-group-item">Marca 3</li>
+                            <li class="list-group-item">Marca 4</li>
+                            <li class="list-group-item">Marca 5</li>
+                            <li class="list-group-item">Marca 6</li>
+                            <li class="list-group-item">Marca 7</li>
+                            <li class="list-group-item">Marca 8</li>
+                        </ul>
+                    </div>
+                </div>
+            </aside>
+
+            <!-- Coluna Direita -->
+            <section class="col-md-8">
+                <div class="row g-3">
+
+                    <div class="col-md-6">
+                        <div class="card shadow">
+                            <img src="images/classic-small-car.webp"
+                                class="card-img-top"
+                                alt="Carro clássico">
+
+                            <div class="card-body">
+                                <h5 class="card-title">Carro Clássico</h5>
+                                <p class="card-text">
+                                    Conheça a história deste modelo.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="card shadow">
+                            <img src="images/D_Q_NP_2X_715585-MLB83382394704_042025-E-vw-fusca-1500-1971-placa-preta.webp"
+                                class="card-img-top"
+                                alt="Fusca">
+
+                            <div class="card-body">
+                                <h5 class="card-title">VW Fusca 1500</h5>
+                                <p class="card-text">
+                                    Um dos carros mais icônicos da história.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+        </div>
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="container mt-5 mb-4">
+        <div class="card shadow">
+            <div class="card-body">
+
+                <h3 class="text-center mb-4">
+                    Qual carro deve ter a história contada aqui no site?
+                </h3>
+
+                <form id="ideias">
+                    <div class="input-group">
+                        <input
+                            type="text"
+                            id="nome"
+                            class="form-control"
+                            placeholder="Nome do carro">
+
+                        <button
+                            type="submit"
+                            class="btn btn-primary">
+                            Enviar
+                        </button>
+                    </div>
+                </form>
+
             </div>
         </div>
-        
-    </section>
-    <footer>
-        <form id="ideias">
-            <h1>Qual carro deve ter a história contada aqui no site?</h1>
-            <div class="linha">
-                <input type="text" id="nome" placeholder="nome do carro">
-                <button type="submit">Enviar</button>
-            </div>
-            
-        </form>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
 
 </html>
