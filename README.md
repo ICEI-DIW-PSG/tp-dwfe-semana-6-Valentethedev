@@ -10,18 +10,18 @@ No trabalho dessa semana vamos alterar o projeto para que a responsividade da ho
 
 ## Informações Gerais
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Nome: Artur Valente 
+- Matricula: 915698
+- Proposta de projeto escolhida: Entidade principal - automóveis
+    Entidades secundárias- História e curiosidades
+- Breve descrição sobre seu projeto: Site que contempla a história e curiosidades de vários automóveis
 
 ## Print da versão responsiva com Bootstrap [DESKTOP]
 
-<<  COLOQUE A IMAGEM AQUI >>
-
+![](Desktop_bootstrap].png)
 ## Print da versão responsiva com Bootstrap [MOBILE] (*)
 
-<<  COLOQUE A IMAGEM AQUI >>
+![](image3.png)
 
 
 (*) Utilize as ferramentas do desenvolvedor do seu navegador para colocar no modo reponsivo, escolha um celular qualquer e recarregue a página antes de tirar o print. 
